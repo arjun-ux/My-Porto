@@ -1,0 +1,16 @@
+.boldtext {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 80px;
+}
+.a {
+    text-decoration: none;
+    font-family: 'Nunito Sans','sans-serif';
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.border{
+    border-left: none;
+    border-right: none;
+    border-top: oldlace;
+    border-bottom: oldlace;
+}
