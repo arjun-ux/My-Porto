@@ -21,18 +21,19 @@
     <div class="container">
         <div class="row text-center justify-content-center">
             <h2>About Me</h2>
-            <div class="col-md-10">
+            <div class="col-md-6">
                 <p>Halo! Saya Arjun Najah, seorang pengembang web pemula dengan
                     semangat yang tinggi untuk belajar dan berkembang di dunia pemrograman.
-                    Sejak tahun 2020, saya telah memasuki dunia pemrograman. Sejak tahun 2021,
-                    saya memulai belajar sebagai pengembangan web dengan antusiasme besar dan
+                    Sejak tahun 2020, saya memulai belajar sebagai pengembangan web dengan antusiasme besar dan
                     berusaha memahami konsep-konsep dasar serta teknologi terkini.
                 </p>
-                <p>Latar belakang pendidikan saya adalah Lulusan Universitas KH. Mukhtar Syafaat Program Studi Ekonomi Syariah tahun 2023 ,
+                <p>Latar belakang pendidikan saya adalah Lulusan Universitas KH. Mukhtar Syafaat Blokagung Program Studi Ekonomi Syariah tahun 2023,
                     yang memberi saya dasar pengetahuan dalam Ilmu Ekonomi berbasis Islam.
                     Akan tetapi Saya memilih alih karir sebagai pengembang Web dikarenakan saya memiliki pemahaman dasar tentang HTML dan PHP,
                     dan saat ini fokus untuk memperdalam kemampuan saya dalam mengembangkan sistem BackEnd dan fungsionalitas situs web.
                 </p>
+            </div>
+            <div class="col-md-6">
                 <p>
                     Saat ini, saya sedang terlibat dalam beberapa proyek kecil
                     untuk membangun portofolio saya. Saya senang menghadapi tantangan baru dan bersedia bekerja sama
@@ -112,14 +113,18 @@
     <div class="container">
         <!-- Tautan LinkedIn -->
         <a href="https://id.linkedin.com/in/arjun-najah-555958237" target="_blank">
-            <img src="{{ asset('img/linkedin.png') }}" alt="LinkedIn" width="40px" height="40px">
+            <img src="{{ asset('img/linkedin.png') }}" alt="LinkedIn" width="30px" height="30px">
         </a>
 
         <!-- Tautan GitHub -->
         <a href="https://github.com/arjun-ux" target="_blank">
-            <img src="{{ asset('img/github.png') }}" alt="GitHub" width="40px" height="40px">
+            <img src="{{ asset('img/github.png') }}" alt="GitHub" width="30px" height="30px">
         </a>
-      <p>&copy; {{ date('Y') }} Arjun Najah. All rights reserved.</p>
+        <!-- Tautan wa -->
+        <a href="https://wa.me/6282336659202" target="_blank">
+            <img src="{{ asset('img/whatsapp.png') }}" alt="GitHub" width="30px" height="30px">
+        </a>
+      <p class="mt-2">&copy; {{ date('Y') }} Arjun Najah. All rights reserved.</p>
     </div>
   </footer>
 @endsection
